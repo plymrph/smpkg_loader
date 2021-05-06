@@ -84,7 +84,6 @@ export default {
         container : this.container,
         carrier : this.carrier
       }
-
       //random result simulation
       const r = Math.floor(Math.random() * 100)
       this.eval = (r % 2 ? 'good' : 'bad')
